@@ -36,5 +36,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "homepage": "https://imchloedev.github.io/voca/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
