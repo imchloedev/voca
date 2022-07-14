@@ -15,7 +15,7 @@ function App() {
         <Route path="/create_word" element={<CreateWord/>} />
         <Route path="/create_day" element={<CreateDay/>} />
       </Route>
-      <Route path="*" element={<Empty/>}/>
+      {/* <Route path="*" element={<Empty/>}/> */}
     </Routes>
   );
 }
